@@ -31,12 +31,12 @@ do {
     } else {
       break
     }
-  
+
   // If the guess is less than randomAge, send an alert letting the user know.
   } else if (userGuess < randomAge) {
     console.log('toolow')
     alert('Too low')
-  
+
   // If the guess is greater than randomAge, let the user know with an alert.
   } else if (userGuess > randomAge) {
     console.log('toohigh')
