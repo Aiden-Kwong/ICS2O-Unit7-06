@@ -3,8 +3,6 @@ let randomAge = Math.floor(Math.random() * 20 + 1)
 randomAge = parseInt(randomAge)
 console.log(randomAge)
 
-let userGuess = null
-
 // Loops until userGuess = randomAge
 do {
   // Prompts user to enter a number.
@@ -53,4 +51,4 @@ do {
       break
     }
   }
-} while (userGuess != randomAge)
+} while (userGuess !== randomAge)
