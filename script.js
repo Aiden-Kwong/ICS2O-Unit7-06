@@ -3,10 +3,12 @@ let randomAge = Math.floor(Math.random() * 20 + 1)
 randomAge = parseInt(randomAge)
 console.log(randomAge)
 
+let userGuess = null
+
 // Loops until userGuess = randomAge
 do {
   // Prompts user to enter a number.
-  let userGuess = prompt('Guess my age!', 'Enter a number here')
+  userGuess = prompt('Guess my age!', 'Enter a number here')
   userGuess = parseInt(userGuess)
 
   // If the guess is equal to randomAge:
